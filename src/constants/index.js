@@ -15,10 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
+    slconnected,
+    backwardGraphics,
+    jeunesse,
+    slmodd,
     tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -42,25 +43,6 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
-];
-
-const updatedServices = [
-    {
         title: "Web/Software Developer",
         icon: web,
     },
@@ -76,6 +58,82 @@ const updatedServices = [
         title: "Bitcoin Life",
         icon: creator,
     },
+];
+
+const experiences = [
+    {
+        title: "Intern Software Developer",
+        company_name: "SLConnected",
+        icon: slconnected,
+        iconBg: "#000", // #383E56
+        date: "Jan 2015 - Jan 2017",
+        points: [
+            "Development of New Client Software and Web Applications.",
+            "Create Mock-up sketches for mobile applications.",
+            "Work with the Team to meet deadlines and exceed expectations.",
+            "Design, Develop, and maintain CMS environments",
+            "~ Frontend: AngularJS (1 year), Wordpress (1 year)",
+            "~ Backend: Java Spring, mySQL",
+        ],
+    },
+    {
+        title: "JR. Software Developer",
+        company_name: "Backward Graphics",
+        icon: backwardGraphics,
+        iconBg: "#4DC5CC",
+        date: "Jan 2019 - Feb 2020",
+        points: [
+            "Create Innovative Frontend features for Complex inventory systems.",
+            "UI Design, Flex, and Layout User Efficient Application Requirements.",
+            "Build, Deploy, and Override CMS environments.",
+            "Rapid/Agile Interactive One Page Applications.",
+            "Scrum Project Management and Version Control.",
+            "~ Frontend: AngularJS / Angular2+, Magento, WP",
+            "~ Backend: Node.js, Java/Spring, MongoDB, mySQL",
+        ],
+    },
+    {
+        title: "Software Developer",
+        company_name: "Jeunesse Global",
+        icon: jeunesse,
+        iconBg: "#2359A8", // #07A4B5
+        date: "May 2020 - May 2022",
+        points: [
+            "7 Super Star Awards (Employee of the Month) in 2 years",
+            "Increased revenue within' a Billion dollar company upwards of 4%",
+            "Develop/maintain the Front facing web-app for Customer Onboarding",
+            "Enhance User Experience by advancing App Navigation & Mobile Design",
+            "Globally Written Code following ADA compliance for many cultures!",
+            "~ Frontend: AngularJS, Angular2+",
+            "~ Backend: Node.js, .NET, Stored procedures & SQL Server",
+        ],
+    },
+    {
+        title: "Crypto Blockchain Development",
+        company_name: "SLMODD CONSULTING",
+        icon: slmodd,
+        iconBg: "#E6DEDD", // #383E56
+        date: "May 2017 - Present",
+        points: [
+            "Hmmm I want these to be updated and better!.",
+            "asdfcreateasdfoducts.",
+            "asdf.",
+            "asdf.",
+        ],
+    },
+    // {
+    //     title: "Mid-Level Software Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2019 - Feb 2020",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const technologies = [
@@ -188,116 +246,6 @@ const upatedTechnologies = [
     },
 ];
 
-const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
-
-const updatedExperiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
-
 const testimonials = [
     {
         testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -319,59 +267,7 @@ const testimonials = [
         designation: "CTO",
         company: "456 Enterprises",
         image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-    // {
-    //     testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    //     name: "Sara Lee",
-    //     designation: "CFO",
-    //     company: "Acme Co",
-    //     image: "https://randomuser.me/api/portraits/women/1.jpg",
-    // },
-    // {
-    //     testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    //     name: "Chris Brown",
-    //     designation: "COO",
-    //     company: "DEF Corp",
-    //     image: "https://randomuser.me/api/portraits/men/2.jpg",
-    // }
-];
-
-const updatedTestimonials = [
-    {
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-    // {
-    //     testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    //     name: "Sara Lee",
-    //     designation: "CFO",
-    //     company: "Acme Co",
-    //     image: "https://randomuser.me/api/portraits/women/1.jpg",
-    // },
-    // {
-    //     testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    //     name: "Chris Brown",
-    //     designation: "COO",
-    //     company: "DEF Corp",
-    //     image: "https://randomuser.me/api/portraits/men/2.jpg",
-    // }
+    }
 ];
 
 const projects = [

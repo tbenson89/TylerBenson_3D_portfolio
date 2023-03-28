@@ -1,12 +1,12 @@
 import React from 'react'
-// import Tilt from 'react-tile'
-import TiltProps from 'react-parallax-tilt' // || Tilt from 'react-tilt'
+import TiltProps from 'react-parallax-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
+// TODO: Update icons!
 const About = () => {
   return (
     <>
