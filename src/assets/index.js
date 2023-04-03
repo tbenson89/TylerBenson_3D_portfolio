@@ -20,16 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
 
 import slconnected from "./company/slconnected.png";
 import backwardGraphics from "./company/backwardgraphics.png";
 import jeunesse from "./company/jeunesse.png";
+import tokunu from "./company/Tokunu.png";
+import biopav from "./company/biopav.png";
 import slmodd from "./company/techNA-slmodd.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import billHarris from "./feedback/bill-harris.png";
+import jeffPuckett from "./feedback/jeff-puckett.jpg";
+import lisaNash from "./feedback/lisa-nash.jpg";
+
 
 export {
   logo,
@@ -53,12 +59,17 @@ export {
   tailwind,
   typescript,
   threejs,
+  carrent,
+  jobit,
   slconnected,
   backwardGraphics,
   jeunesse,
+  tokunu,
+  biopav,
   slmodd,
   tesla,
-  carrent,
-  jobit,
   tripguide,
+  billHarris,
+  jeffPuckett,
+  lisaNash,
 };

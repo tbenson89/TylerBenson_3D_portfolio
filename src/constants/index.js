@@ -15,15 +15,20 @@ import {
     git,
     figma,
     docker,
-    slconnected,
-    backwardGraphics,
-    jeunesse,
-    slmodd,
-    tesla,
     carrent,
     jobit,
     tripguide,
     threejs,
+    slconnected,
+    backwardGraphics,
+    jeunesse,
+    tokunu,
+    biopav,
+    slmodd,
+    tesla,
+    billHarris,
+    jeffPuckett,
+    lisaNash,
 } from "../assets";
 
 export const navLinks = [
@@ -62,7 +67,7 @@ const services = [
 
 const experiences = [
     {
-        title: "Intern Software Developer",
+        title: "Intern/Jr. Software Developer",
         company_name: "SLConnected",
         icon: slconnected,
         iconBg: "#000", // #383E56
@@ -77,7 +82,7 @@ const experiences = [
         ],
     },
     {
-        title: "JR. Software Developer",
+        title: "Web/Software Developer",
         company_name: "Backward Graphics",
         icon: backwardGraphics,
         iconBg: "#4DC5CC",
@@ -109,10 +114,49 @@ const experiences = [
         ],
     },
     {
-        title: "Crypto Blockchain Development",
-        company_name: "SLMODD CONSULTING",
+        title: "Director of IT",
+        company_name: "tōkunu",
+        icon: tokunu,
+        iconBg: "#FAFBFC",
+        date: "July 2022 - Sept 2022",
+        points: [ // TODO: Come up with good bullet points!
+            "Write out all the good points indicate why only thrree months!",
+            "Project Manager/IT Director, Solana Project (3 months).",
+            "asdf.",
+            "asdf.",
+        ],
+    },
+    {
+        title: "Partner/Core Dev",
+        company_name: "Nambi Sanctuary Fdn.",
+        icon: biopav, // TODO: Update image icon to nambi circle!
+        iconBg: "#00F700", // TODO: Update color tan?
+        date: "? 2022 - Paused?", // TODO: Update dates.
+        points: [ // TODO: Come up with good bullet points!
+            "Write out all the good points",
+            "Non-Profit Preservation and Adventure Lodging in Costa Rica (NFT blockchain technology, TestNet Tokenization).",
+            "asdf.",
+            "asdf.",
+        ],
+    },
+    {
+        title: "Partner/Core Dev",
+        company_name: "BioPavCanada",
+        icon: biopav,
+        iconBg: "#00F700",
+        date: "? 2022 - Jan 2023",
+        points: [ // TODO: Come up with good bullet points!
+            "Write out all the good points",
+            "Ionic Angular Bidding Application for Renewable Energy.",
+            "asdf.",
+            "asdf.",
+        ],
+    }, // TODO: bullet points for SLMODD
+    {
+        title: "Development & Consulting",
+        company_name: "Slightly Modified Technologies",
         icon: slmodd,
-        iconBg: "#E6DEDD", // #383E56
+        iconBg: "#E6DEDD",
         date: "May 2017 - Present",
         points: [
             "Hmmm I want these to be updated and better!.",
@@ -191,6 +235,12 @@ const technologies = [
     },
 ];
 
+// TODO: Also need Angular what else? Svelte?
+// TODO: Change to Express/RxJS/GraphQL/NgRx
+// TODO: also Boostrap
+// TODO: SQL mySQL
+// TODO: ??????? FIGMA? ? ? ?
+// TODO: Docker or cloud?
 const upatedTechnologies = [
     {
         name: "HTML 5",
@@ -208,15 +258,15 @@ const upatedTechnologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
+    { // TODO: Also need Angular what else? Svelte?
         name: "React JS",
         icon: reactjs,
     },
-    {
+    { // TODO: Change to Express/RxJS/GraphQL/NgRx
         name: "Redux Toolkit",
         icon: redux,
     },
-    {
+    { // TODO: also Boostrap
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -224,7 +274,7 @@ const upatedTechnologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
+    { // TODO: SQL mySQL 
         name: "MongoDB",
         icon: mongodb,
     },
@@ -236,11 +286,11 @@ const upatedTechnologies = [
         name: "git",
         icon: git,
     },
-    {
+    { // TODO: ???????
         name: "figma",
         icon: figma,
     },
-    {
+    { // TODO: docker or cloud?
         name: "docker",
         icon: docker,
     },
@@ -248,25 +298,26 @@ const upatedTechnologies = [
 
 const testimonials = [
     {
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
+        testimonial:
+        "I strongly Recommend that you HIRE TYLER ... and assign him to your most ... challenging development projects. He will NOT disappoint you!",
+        name: "Bill Harris",
         designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        company: "Jeunesse Global",
+        image: billHarris,
+    },
+    {
+        testimonial: "Tyler always went the extra mile, maintaining and enhancing the site for the business. With little oversight and remained engaged in the work.",
+        name: "Jeff Puckett",
+        designation: "PM Director",
+        company: "Jeunesse Global",
+        image: jeffPuckett,
+    },
+    {
+        testimonial: "Tyler's actions consistently inspire and motivate his co-workers. He is hard working, organized and sees his tasks through, no matter the situation.",
+        name: "Lisa Nash",
+        designation: "HR Project Manager",
+        company: "Jeunesse Global",
+        image: lisaNash,
     }
 ];
 

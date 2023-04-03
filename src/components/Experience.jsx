@@ -6,8 +6,7 @@ import { SectionWrapper } from "../hoc"
 import { styles } from "../styles"
 import { textVariant } from "../utils/motion"
 
-// TODO: update Current Employment w/ SLMODD logo
-// TODO: Update icon slmodd color!
+// TODO: Finish updating project / contract / consulting cards!
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color: '#fff' }}
