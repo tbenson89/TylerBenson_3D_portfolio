@@ -1,34 +1,43 @@
 import {
-    mobile,
     backend,
     creator,
+    mobile,
     web,
-    javascript,
+    angular,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
+    vite,
+    css,
     tailwind,
+    bootstrap,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
+    sql,
     threejs,
+    git,
+    docker,
+
+    figma,
+    html,
+    javascript,
+    redux,
+
     slconnected,
     backwardGraphics,
     jeunesse,
     tokunu,
+    nambi,
     biopav,
     slmodd,
     tesla,
+    tripguide,
     billHarris,
     jeffPuckett,
     lisaNash,
+
+    // Note: Not USED?
+    carrent,
+    jobit,
 } from "../assets";
 
 export const navLinks = [
@@ -65,6 +74,7 @@ const services = [
     },
 ];
 
+// TODO: Action required...
 const experiences = [
     {
         title: "Intern/Jr. Software Developer",
@@ -113,6 +123,7 @@ const experiences = [
             "~ Backend: Node.js, .NET, Stored procedures & SQL Server",
         ],
     },
+    // Note: Should I put PureTuned/AmorVida?
     {
         title: "Director of IT",
         company_name: "tōkunu",
@@ -129,9 +140,9 @@ const experiences = [
     {
         title: "Partner/Core Dev",
         company_name: "Nambi Sanctuary Fdn.",
-        icon: biopav, // TODO: Update image icon to nambi circle!
-        iconBg: "#00F700", // TODO: Update color tan?
-        date: "? 2022 - Paused?", // TODO: Update dates.
+        icon: nambi,
+        iconBg: "#EA8C19",
+        date: "July 2022 - Paused",
         points: [ // TODO: Come up with good bullet points!
             "Write out all the good points",
             "Non-Profit Preservation and Adventure Lodging in Costa Rica (NFT blockchain technology, TestNet Tokenization).",
@@ -144,21 +155,21 @@ const experiences = [
         company_name: "BioPavCanada",
         icon: biopav,
         iconBg: "#00F700",
-        date: "? 2022 - Jan 2023",
+        date: "Sept 2022 - Jan 2023",
         points: [ // TODO: Come up with good bullet points!
             "Write out all the good points",
             "Ionic Angular Bidding Application for Renewable Energy.",
             "asdf.",
             "asdf.",
         ],
-    }, // TODO: bullet points for SLMODD
+    },
     {
         title: "Development & Consulting",
         company_name: "Slightly Modified Technologies",
         icon: slmodd,
         iconBg: "#E6DEDD",
         date: "May 2017 - Present",
-        points: [
+        points: [ // TODO: bullet points for SLMODD
             "Hmmm I want these to be updated and better!.",
             "asdfcreateasdfoducts.",
             "asdf.",
@@ -182,16 +193,8 @@ const experiences = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Angular",
+        icon: angular,
     },
     {
         name: "TypeScript",
@@ -202,81 +205,32 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
-];
-
-// TODO: Also need Angular what else? Svelte?
-// TODO: Change to Express/RxJS/GraphQL/NgRx
-// TODO: also Boostrap
-// TODO: SQL mySQL
-// TODO: ??????? FIGMA? ? ? ?
-// TODO: Docker or cloud?
-const upatedTechnologies = [
-    {
-        name: "HTML 5",
-        icon: html,
+        name: "Vite",
+        icon: vite,
     },
     {
         name: "CSS 3",
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    { // TODO: Also need Angular what else? Svelte?
-        name: "React JS",
-        icon: reactjs,
-    },
-    { // TODO: Change to Express/RxJS/GraphQL/NgRx
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    { // TODO: also Boostrap
         name: "Tailwind CSS",
         icon: tailwind,
+    },
+    {
+        name: "Boostrap",
+        icon: bootstrap,
     },
     {
         name: "Node JS",
         icon: nodejs,
     },
-    { // TODO: SQL mySQL 
+    {
         name: "MongoDB",
         icon: mongodb,
+    },
+    {
+        name: "SQL",
+        icon: sql,
     },
     {
         name: "Three JS",
@@ -286,11 +240,7 @@ const upatedTechnologies = [
         name: "git",
         icon: git,
     },
-    { // TODO: ???????
-        name: "figma",
-        icon: figma,
-    },
-    { // TODO: docker or cloud?
+    {
         name: "docker",
         icon: docker,
     },
@@ -454,3 +404,60 @@ const updatedProjects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
+
+// Note: Recycler
+const old_technologies = [
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS 3",
+        icon: css,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Redux Toolkit",
+        icon: redux,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "Three JS",
+        icon: threejs,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "figma",
+        icon: figma,
+    },
+    {
+        name: "docker",
+        icon: docker,
+    },
+];
