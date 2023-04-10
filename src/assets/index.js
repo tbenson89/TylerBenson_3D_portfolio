@@ -34,10 +34,16 @@ import billHarris from "./feedback/bill-harris.png";
 import jeffPuckett from "./feedback/jeff-puckett.jpg";
 import lisaNash from "./feedback/lisa-nash.jpg";
 
+import amorVidaStyle from "./amorVidaStyle.png"; // TODO: NO GO ON THIS IMAGE!
+import btcBeachCR from "./costa-rica-bitcoin.png"; // TODO: NO GO ON THIS IMAGE!
+import greaseApp from "./greaseApp.png";
+
 import figma from "./tech/figma.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import redux from "./tech/redux.png";
+
+// Note: Not USED?
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -47,10 +53,12 @@ export {
   menu,
   close,
   logo,
+
   backend,
   creator,
   mobile,
   web,
+
   angular,
   typescript,
   reactjs,
@@ -79,12 +87,16 @@ export {
   biopav,
   slmodd,
   tesla,
-  tripguide,
   billHarris,
   jeffPuckett,
   lisaNash,
 
-  // Note: Not USED?
+  amorVidaStyle,
+  btcBeachCR,
+  greaseApp,
+
+  // Note: Not USED
+  tripguide,
   carrent,
   jobit,
 };

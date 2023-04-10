@@ -3,6 +3,7 @@ import {
     creator,
     mobile,
     web,
+
     angular,
     typescript,
     reactjs,
@@ -17,11 +18,6 @@ import {
     git,
     docker,
 
-    figma,
-    html,
-    javascript,
-    redux,
-
     slconnected,
     backwardGraphics,
     jeunesse,
@@ -30,12 +26,21 @@ import {
     biopav,
     slmodd,
     tesla,
-    tripguide,
     billHarris,
     jeffPuckett,
     lisaNash,
 
+    amorVidaStyle,
+    btcBeachCR,
+    greaseApp,
+
     // Note: Not USED?
+    figma,
+    html,
+    javascript,
+    redux,
+
+    tripguide,
     carrent,
     jobit,
 } from "../assets";
@@ -271,14 +276,15 @@ const testimonials = [
     }
 ];
 
+//  Amor Vida Style - BTCBeachCR - Greaseplatic2bitcoin/bticoinArmy/greaseApp // TODO: NO GO ON THIS IMAGE!
 const projects = [
     {
-        name: "Car Rent",
+        name: "AmorVida Style",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Our mission is to promote Bitcoin adoption and spread the Bitcoin & Eco lifestyle. Follow our journey as we travel the world with our van, meet, grow, learn and build.",
         tags: [
             {
-                name: "react",
+                name: "next",
                 color: "blue-text-gradient",
             },
             {
@@ -290,103 +296,42 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: amorVidaStyle,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Bitcoin Beach Costa Rica",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Through the growth of an ecosystem based on a circular economy & Bitcoin, working to improve the lives of the inhabitants of communities through the affiliation of businesses and services who accept Bitcoin.",
+            // "Costa Rica Eco-Humanitarian Tokenization Project Web application that enables users to search for job openings, view estimated salary ranges for positions.",
         tags: [
             {
-                name: "react",
+                name: "WP",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "LNDapi",
+                color: "violet-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "Bitcoin",
+                color: "orange-text-gradient",
             },
         ],
-        image: jobit,
+        image: btcBeachCR,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Grease/Plastic Recycling",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "The plastic waste can be reused to fuel the bitcoin mining process, thereby making use of resources that would otherwise be thrown away.",
         tags: [
             {
-                name: "nextjs",
+                name: "ionic",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
-];
-
-const updatedProjects = [
-    {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
+                name: "angular",
                 color: "blue-text-gradient",
             },
             {
@@ -394,11 +339,11 @@ const updatedProjects = [
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "scss",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: greaseApp,
         source_code_link: "https://github.com/",
     },
 ];
@@ -461,3 +406,70 @@ const old_technologies = [
         icon: docker,
     },
 ];
+
+const old_projects = [
+    {
+        name: "Car Rent",
+        description:
+            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: carrent,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Job IT",
+        description:
+            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "Trip Guide",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/",
+    },
+];
+
