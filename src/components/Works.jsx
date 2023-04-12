@@ -6,11 +6,6 @@ import { SectionWrapper } from '../hoc'
 import { styles } from '../styles'
 import { fadeIn, textVariant } from '../utils/motion'
 
-// TODO: Update from works -> projects
-// TODO: Update motion.p -> description of section projects and work, to be mine!
-// This one is for JNS projects website -> from john johnson https://camdas.com/jeunesse-global-website/ 
-// https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/291859138_359234186357060_1927382977895905379_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v4VfPjoTnOUAX9rBG6a&_nc_ht=scontent.fslc3-2.fna&oh=00_AfD3olyzLn-4OumXLparO0mBDUDxk5e3-urwlNvU6yimNA&oe=64155E76
-// https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/292348185_359234183023727_1936875796673891171_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HdPsMCvwDbUAX9oSNyu&_nc_ht=scontent.fslc3-1.fna&oh=00_AfAwLYiQg7cb3TUWgvOgDrGUv3rg4t_eIvEpAjJcjBzddQ&oe=641551D6
 const Works = () => {
   return (
     <>
@@ -24,9 +19,9 @@ const Works = () => {
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Check out these real-world projects that showcase my skills and experience. These projects demonstrate my ability to tackle complex problems,
-          work with a variety of technologies, and effectively manage projects. Each project is accompanied by a brief description and links
-          to code repositories and live demos, giving you a glimpse into my work and what I can bring to your project.
+          Discover these innovative real-world projects that illustrate my skills and expertise in the technology field. These projects reflect my proficiency in handling intricate issues,
+          collaborating with diverse technologies, and managing projects efficiently. Each project is outlined with a short summary and references to code repositories and live demos,
+          enabling you to gain insight into my work and what I can deliver to your project.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap justify-center gap-7">
@@ -73,3 +68,18 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 }
 
 export default SectionWrapper(Works, "")
+
+// Note: Where to put this?
+// Here is what i removed from the section summary!
+// Explore the AmorVida Style project, promoting Bitcoin adoption and Eco lifestyle through
+// traveling the world, and the Bitcoin Beach Costa Rica initiative, which improves the lives of communities through Bitcoin and circular economy.
+// Also, take a look at the Grease/Plastic Recycling project, where plastic waste is recycled to fuel Bitcoin mining, making use of discarded resources.
+
+// Check out these real-world projects that showcase my skills and experience. These projects demonstrate my ability to tackle complex problems,
+// work with a variety of technologies, and effectively manage projects. Each project is accompanied by a brief description and links
+// to code repositories and live demos, giving you a glimpse into my work and what I can bring to your project.
+
+// TODO: Update motion.p -> description of section projects and work, to be mine!
+// This one is for JNS projects website -> from john johnson https://camdas.com/jeunesse-global-website/ 
+// https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/291859138_359234186357060_1927382977895905379_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v4VfPjoTnOUAX9rBG6a&_nc_ht=scontent.fslc3-2.fna&oh=00_AfD3olyzLn-4OumXLparO0mBDUDxk5e3-urwlNvU6yimNA&oe=64155E76
+// https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/292348185_359234183023727_1936875796673891171_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HdPsMCvwDbUAX9oSNyu&_nc_ht=scontent.fslc3-1.fna&oh=00_AfAwLYiQg7cb3TUWgvOgDrGUv3rg4t_eIvEpAjJcjBzddQ&oe=641551D6
