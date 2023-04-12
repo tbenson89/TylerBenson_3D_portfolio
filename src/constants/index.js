@@ -79,7 +79,6 @@ const services = [
     },
 ];
 
-// TODO: Action required...
 const experiences = [
     {
         title: "Intern/Jr. Software Developer",
@@ -135,24 +134,26 @@ const experiences = [
         icon: tokunu,
         iconBg: "#FAFBFC",
         date: "July 2022 - Sept 2022",
-        points: [ // TODO: Come up with good bullet points!
-            "Write out all the good points indicate why only thrree months!",
-            "Project Manager/IT Director, Solana Project (3 months).",
-            "asdf.",
-            "asdf.",
+        points: [
+            "Spearheaded IT operations; managed the Development of the Playground, PM, and Website.",
+            "Streamlined communication flow between Stakeholders, marketing, and DEV team",
+            "Navigated the challenges of the Crypto Crash while operating on minimal funds.",
+            "Set up various stand up meetings to achieve objectives and identified market conditions.",
         ],
     },
     {
         title: "Partner/Core Dev",
-        company_name: "Nambi Sanctuary Fdn.",
+        company_name: "Nambi Sanctuary / Bitcoin Beach Costa Rica",
         icon: nambi,
         iconBg: "#EA8C19",
-        date: "July 2022 - Paused",
-        points: [ // TODO: Come up with good bullet points!
-            "Write out all the good points",
+        date: "July 2022 - Paused 2023",
+        points: [
             "Non-Profit Preservation and Adventure Lodging in Costa Rica (NFT blockchain technology, TestNet Tokenization).",
-            "asdf.",
-            "asdf.",
+            "Led a large-scale 4 part project that involved developing NFT access badges and giveaway access.",
+            "Created legal and advisory team to ensure compliance with US regulations and gain exclusive access to tokenized estate",
+            "Research and Strategize meetings, project management spanning across the USA, Philippines and Quebec, Canada.",
+            "Hand selected the Dev/Design/Markting Teams from the ground up.",
+            "Established most the infrastructure necessary to launch the project." // (rest will be done in person sometime this year)
         ],
     },
     {
@@ -161,11 +162,14 @@ const experiences = [
         icon: biopav,
         iconBg: "#00F700",
         date: "Sept 2022 - Jan 2023",
-        points: [ // TODO: Come up with good bullet points!
-            "Write out all the good points",
-            "Ionic Angular Bidding Application for Renewable Energy.",
-            "asdf.",
-            "asdf.",
+        points: [
+            "Created a Grease Recycler App allowing restaurants to sell their grease, and developed a bidding app for renewable energy.",
+            "Implemented a unique bidding system using tokens for buyers to bid on user graded grease.",
+            "Built using Ionic Angular, Typescript, API: Node, Express, and MongoDB.",
+            "Agile development cycles, prompt engineering, and Git/GitHub for seamless collaboration.",
+            "Features cool charting/graphs and swiper animations for a user-friendly interface.",
+            "Advanced user roles for superAdmin, admin, buyer, and seller with different permissions & capabilities.",
+            "Part of a larger renewable movement and bitcoin economy.",
         ],
     },
     {
@@ -174,13 +178,18 @@ const experiences = [
         icon: slmodd,
         iconBg: "#E6DEDD",
         date: "May 2017 - Present",
-        points: [ // TODO: bullet points for SLMODD
-            "Hmmm I want these to be updated and better!.",
-            "asdfcreateasdfoducts.",
-            "asdf.",
-            "asdf.",
+        points: [
+            "Expertise in Bitcoin Development & Smart Contracts.",
+            "Ensuring Compliance with SEC Regulations.",
+            "Specializing in Tokenization on Bitcoin Layer 2.",
+            "Knowledge of Renewable Energy & Recycling for Bitcoin Mining.",
+            "Innovative Solutions for Renewable Plastic Recycling.",
+            "Proven Track Record of Enhancing User Experience & Generating Revenue, LOW BUDGET!",
+            "Experienced in Agile Project Management & Version Control.",
         ],
     },
+];
+// TODO: TESLA REMOVE ME LATER! from experiences
     // {
     //     title: "Mid-Level Software Developer",
     //     company_name: "Tesla",
@@ -194,7 +203,6 @@ const experiences = [
     //         "Participating in code reviews and providing constructive feedback to other developers.",
     //     ],
     // },
-];
 
 const technologies = [
     {
