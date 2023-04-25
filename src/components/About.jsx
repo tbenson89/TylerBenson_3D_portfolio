@@ -18,8 +18,8 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Driven by Success, Tyler has achieved 7+ Super Star (Employee of the month) Awards working with a Global Development Team.
         He has brought top notch styling and clean and efficient code. Tyler is a thriving team player and natural born leader.
-        Thriving to learn the latest Technologies you can often find him hiding away, face lit up by computer monitors working on
-        smart contracts and web3 connections.
+        Thriving to learn the latest Technologies you can often find him hiding away, face lit up by computer monitors working
+        on cutting-edge software and blockchain applications.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-10">

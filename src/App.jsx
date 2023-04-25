@@ -23,7 +23,7 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
+        {/* <Works /> // TODO: WE need to rethink these ones. we need code to show and live deployed projects! */}
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

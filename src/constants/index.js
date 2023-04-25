@@ -124,10 +124,9 @@ const experiences = [
             "Enhance User Experience by advancing App Navigation & Mobile Design",
             "Globally Written Code following ADA compliance for many cultures!",
             "~ Frontend: AngularJS, Angular2+",
-            "~ Backend: Node.js, .NET, Stored procedures & SQL Server",
+            "~ Backend: Node.js, C#/.NET, & SQL Server",
         ],
     },
-    // Note: Should I put PureTuned/AmorVida?
     {
         title: "Director of IT",
         company_name: "tōkunu",
