@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc"
 import { styles } from "../styles"
 import { fadeIn, textVariant } from "../utils/motion"
 
-// TODO: update feebacks to be relavant!
+// TODO: Update cards to have links to LOR's! =-= sources :)
 const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">

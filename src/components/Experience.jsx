@@ -6,8 +6,7 @@ import { SectionWrapper } from "../hoc"
 import { styles } from "../styles"
 import { textVariant } from "../utils/motion"
 
-// TODO: update VerticalTimelineElement icon = div > img src = correct icons :)
-// TODO: update verticalTimelineElement const experience title compenay points! date!
+// TODO: Finish updating project / contract / consulting cards!
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color: '#fff' }}
