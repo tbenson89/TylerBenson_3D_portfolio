@@ -43,11 +43,6 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import redux from "./tech/redux.png";
 
-// Note: Not USED?
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 
 export {
   menu,
@@ -94,9 +89,4 @@ export {
   amorVidaStyle,
   btcBeachCR,
   greaseApp,
-
-  // Note: Not USED
-  tripguide,
-  carrent,
-  jobit,
 };
